@@ -51,7 +51,7 @@ db = get_db()
 if db is None:
     st.stop()
 
-st.success(f"✅ Connected to MongoDB: {DB_NAME}")
+#st.success(f"✅ Connected to MongoDB: {DB_NAME}")
 
 # ==============================
 # 📊 Key Performance Indicators
@@ -360,5 +360,6 @@ st.markdown("""
 - **Database:** sample_mflix
 - **Technology Stack:** Python, Streamlit, MongoDB, Plotly
 - **Last Updated:** Real-time connection to live database
+- **Built By :** Jinank Thakker U00365065 DSA 508 Test 2
 """)
 
