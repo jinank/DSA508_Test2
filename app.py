@@ -28,7 +28,7 @@ st.caption("📊 Real-time analytics dashboard powered by MongoDB Atlas and Stre
 # ==============================
 # 🔑 Database Connection Setup
 # ==============================
-MONGO_URI = st.secrets.get("MONGO_URI", os.getenv("MONGO_URI", ""))
+MONGO_URI = st.secrets.get("MONGO_URI", os.getenv("MONGO_URI", "mongodb+srv://jinankthakker_db_user:LVDx4JU5vAR2OKVF@dsa508.8ydjpgj.mongodb.net/sample_mflix?retryWrites=true&w=majority"))
 DB_NAME = st.secrets.get("DB_NAME", os.getenv("DB_NAME", "sample_mflix"))
 
 if not MONGO_URI:
